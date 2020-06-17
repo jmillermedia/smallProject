@@ -3,3 +3,21 @@
 .hidden {
 	display: none;
 }
+
+#container {
+	margin: 0px auto;
+	display: flex;
+	flex-direction: row;
+}
+
+#left,#right {
+	width: 500px;
+	height: 500px;
+	border: 1px dashed #222;
+
+}
+
+img {
+	width: 400px;
+	justify-content: center;
+}
